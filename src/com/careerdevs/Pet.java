@@ -5,11 +5,13 @@ public class Pet {
     public String species;
     public int numberOfLegs;
     public boolean isLandAnimal;
+    public String idTag;
 
-    public Pet(String species, int numberOfLegs, boolean isLandAnimal) {
+    public Pet(String species, int numberOfLegs, boolean isLandAnimal, String idTag) {
         this.species = species;
         this.numberOfLegs = numberOfLegs;
         this.isLandAnimal = isLandAnimal;
+        this.idTag = idTag;
     }
 
     public String getSpecies() {
@@ -24,6 +26,8 @@ public class Pet {
         return isLandAnimal;
     }
 
+    public String getIdTag() { return idTag; }
+
     public void setSpecies(String species) {
         this.species = species;
     }
@@ -35,6 +39,8 @@ public class Pet {
     public void setLandAnimal(boolean isLandAnimal) {
         this.isLandAnimal = isLandAnimal;
     }
+
+    public void setIdTag(String idTag) { this.idTag = idTag; }
 
     @Override
     public String toString() {
