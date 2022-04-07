@@ -44,6 +44,6 @@ public class Pet {
 
     @Override
     public String toString() {
-        return "Pet{ " + "Species: " + species + ", " + "Number of Legs: " + numberOfLegs + ", " + "Is this pet a land animal: " + isLandAnimal;
+        return "Pet{ " + "Species: " + species + ", " + "Number of Legs: " + numberOfLegs + ", " + "Is this pet a land animal: " + isLandAnimal + "idTag " + idTag;
     }
 }
